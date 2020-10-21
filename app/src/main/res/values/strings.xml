@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MadLevel5Task1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="my_notepad">My Notepad</string>
+    <string name="date">Last updated:</string>
+    <string name="title_input">Title</string>
+    <string name="note_input">Note</string>
+    <string name="save_btn">Save</string>
+    <string name="last_updated">last updated: %1$s</string>
+
+</resources>
