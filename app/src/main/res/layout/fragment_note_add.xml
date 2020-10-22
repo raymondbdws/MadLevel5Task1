@@ -7,7 +7,7 @@
     tools:context=".ui.AddNoteFragment">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
+        android:id="@+id/tilTitle"
         android:layout_width="350dp"
         android:layout_height="63dp"
         android:layout_marginStart="24dp"
@@ -25,15 +25,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
+        android:id="@+id/tilNote"
         android:layout_width="350dp"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
-        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/tilTitle"
+        app:layout_constraintStart_toStartOf="@+id/tilTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tilTitle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_note"
@@ -43,12 +43,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSave"
         android:layout_width="329dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:text="@string/save_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+        app:layout_constraintTop_toBottomOf="@+id/tilNote" />
 </androidx.constraintlayout.widget.ConstraintLayout>
